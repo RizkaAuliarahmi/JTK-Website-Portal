@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "link": "#",
+    "img": "/img/trips/pohonKelapa.png",
+    "title": "Pantai Pasir Putih"
+  },
+  {
+    "id": "2",
+    "link": "#",
+    "img": "/img/trips/curug.png",
+    "title": "Curug Cimarinjung"
+  },
+  {
+    "id": "3",
+    "link": "#",
+    "img": "/img/trips/geyser.png",
+    "title": "Geyser"
+  },
+  {
+    "id": "1",
+    "link": "#",
+    "img": "/img/trips/pohonKelapa.png",
+    "title": "Pantai Pasir Putih"
+  },
+  {
+    "id": "2",
+    "link": "#",
+    "img": "/img/trips/curug.png",
+    "title": "Curug Cimarinjung"
+  },
+  {
+    "id": "3",
+    "link": "#",
+    "img": "/img/trips/geyser.png",
+    "title": "Geyser"
+  }
+]

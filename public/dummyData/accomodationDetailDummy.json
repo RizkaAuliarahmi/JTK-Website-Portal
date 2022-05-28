@@ -1,0 +1,82 @@
+{
+  "facilities": [
+    {
+      "img": "/img/partnership/restaurant/detail/facility/general.png",
+      "type": "General",
+      "facilityDetail": ["A", "B", "C", "D", "E", "F", "G"]
+    },
+    {
+      "img": "/img/partnership/restaurant/detail/facility/public.png",
+      "type": "Public Facilities",
+      "facilityDetail": ["A", "B", "C", "D", "E", "F", "G"]
+    },
+    {
+      "img": "/img/partnership/restaurant/detail/facility/wifi.png",
+      "type": "Connectivity",
+      "facilityDetail": ["A", "B", "C", "D", "E", "F", "G"]
+    },
+    {
+      "img": "/img/partnership/restaurant/detail/facility/business.png",
+      "type": "Business Facilities",
+      "facilityDetail": ["A", "B", "C", "D", "E", "F", "G"]
+    },
+    {
+      "img": "/img/partnership/restaurant/detail/facility/accesibility.png",
+      "type": "Accesibility",
+      "facilityDetail": ["A", "B", "C", "D", "E", "F", "G"]
+    },
+    {
+      "img": "/img/partnership/restaurant/detail/facility/kidpets.png",
+      "type": "Kids and Pets",
+      "facilityDetail": ["A", "B", "C", "D", "E", "F", "G"]
+    }
+  ],
+  "gallery": [
+    {
+      "img": "/img/partnership/restaurant/detail/gallery/serodotan.png",
+      "title": "Play Ground",
+      "sub_title": "Buttler Bar & Distro",
+      "description": "A playground, playpark, or play area is a place designed to provide an environment for children that facilitates play, typically outdoors."
+    },
+    {
+      "img": "/img/partnership/restaurant/detail/gallery/rumahkaca.png",
+      "title": "Indoor Area",
+      "sub_title": "Buttler Bar & Distro",
+      "description": "Indoor Area means all space between a floor and a ceiling that is bounded by walls, doorways, or windows, whether open or closed."
+    },
+    {
+      "img": "/img/partnership/restaurant/detail/gallery/meja.png",
+      "title": "Outdoor Area",
+      "sub_title": "Buttler Bar & Distro",
+      "description": "Outdoor area means an area, whether or not enclosed by a roof, which is open to the elements, and which is not constructed for year round use."
+    },
+    {
+      "img": "/img/partnership/restaurant/detail/gallery/serodotan.png",
+      "title": "Play Ground",
+      "sub_title": "Buttler Bar & Distro",
+      "description": "A playground, playpark, or play area is a place designed to provide an environment for children that facilitates play, typically outdoors."
+    },
+    {
+      "img": "/img/partnership/restaurant/detail/gallery/rumahkaca.png",
+      "title": "Indoor Area",
+      "sub_title": "Buttler Bar & Distro",
+      "description": "Indoor Area means all space between a floor and a ceiling that is bounded by walls, doorways, or windows, whether open or closed."
+    },
+    {
+      "img": "/img/partnership/restaurant/detail/gallery/meja.png",
+      "title": "Outdoor Area",
+      "sub_title": "Buttler Bar & Distro",
+      "description": "Outdoor area means an area, whether or not enclosed by a roof, which is open to the elements, and which is not constructed for year round use."
+    }
+  ],
+  "infoCard": {
+    "name": "Hotel Pantai Ujung Genteng",
+    "category": "Hotel",
+    "price_min": "500.000",
+    "price_max": "700.000",
+    "contact_number": "+62 851-1234-5678",
+    "address": "Cijaringao, Bandung",
+    "img": "/img/partnership/accomodation/detail/kolam.png"
+  },
+  "detailTabs": ["INFO & HARGA", "FACILITIES", "GALLERY"]
+}

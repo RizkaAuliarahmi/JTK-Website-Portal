@@ -1,0 +1,224 @@
+[
+    {
+        "image_url": "/img/partnership/accomodation/main/acc-1.png",
+        "name": "Hotel Pantai Ujung Genteng",
+        "star": 5,
+        "category": "Hotel",
+        "location_url": "#",
+        "location_text": "Cijaringao, Bandung",
+        "facilities":  [
+            "Wifi",
+            "Swimming Pool",
+            "Parking",
+            "Restaurant",
+            "Rating bintang dan harga",
+            "24-Hour Front Desk",
+            "Wheelchair Access",
+            "Fitness Center"],
+        "minimum_price": "Rp500.000",
+        "maximum_price": "Rp700.000",
+        "ordering_url": "#",
+        "detail_url": "/accomodation-detail"
+    },
+    {
+        "image_url": "/img/partnership/accomodation/main/acc-2.png",
+        "name": "Penginapan Cimahi",
+        "star": 3,
+        "category": "Lodging",
+        "location_url": "#",
+        "location_text": "Kebon Kopi, Cimahi",
+        "facilities":  [
+            "Wifi",
+            "24-Hour Front Desk",
+            "Wheelchair Access",
+            "Restaurant"],
+        "minimum_price": "Rp450.000",
+        "maximum_price": "Rp650.000",
+        "ordering_url": "#",
+        "detail_url": "#"
+    },
+    {
+        "image_url": "/img/partnership/accomodation/main/acc-3.png",
+        "name": "Rumah Murah Ciwaruga",
+        "star": 0,
+        "category": "Homestay",
+        "location_url": "#",
+        "location_text": "Ciwaruga, Gegerkalong",
+        "facilities":  [
+            "Wifi",
+            "24-Hour Front Desk",
+            "Wheelchair Access"
+            ],
+        "minimum_price": "Rp300.000",
+        "maximum_price": "Rp500.000",
+        "ordering_url": "#",
+        "detail_url": "#"
+    },
+    {
+        "image_url": "/img/partnership/accomodation/main/acc-1.png",
+        "name": "Hotel Pantai Ujung Genteng",
+        "category": "Hotel",
+        "star": 1,
+        "location_url": "#",
+        "location_text": "Cijaringao, Bandung",
+        "facilities":  [
+            "Wifi",
+            "Swimming Pool",
+            "Parking",
+            "Restaurant",
+            "Rating bintang dan harga",
+            "24-Hour Front Desk",
+            "Wheelchair Access",
+            "Fitness Center"],
+        "minimum_price": "Rp500.000",
+        "maximum_price": "Rp700.000",
+        "ordering_url": "#",
+        "detail_url": "/accomodation-detail"
+    },
+    {
+        "image_url": "/img/partnership/accomodation/main/acc-2.png",
+        "name": "Penginapan Cimahi",
+        "star": 2,
+        "category": "Lodging",
+        "location_url": "#",
+        "location_text": "Kebon Kopi, Cimahi",
+        "facilities":  [
+            "Wifi",
+            "24-Hour Front Desk",
+            "Wheelchair Access",
+            "Restaurant"],
+        "minimum_price": "Rp450.000",
+        "maximum_price": "Rp650.000",
+        "ordering_url": "#",
+        "detail_url": "#"
+    },
+    {
+        "image_url": "/img/partnership/accomodation/main/acc-3.png",
+        "name": "Rumah Murah Ciwaruga",
+        "star": 3,
+        "category": "Homestay",
+        "location_url": "#",
+        "location_text": "Ciwaruga, Gegerkalong",
+        "facilities":  [
+            "Wifi",
+            "24-Hour Front Desk",
+            "Wheelchair Access"
+            ],
+        "minimum_price": "Rp300.000",
+        "maximum_price": "Rp500.000",
+        "ordering_url": "#",
+        "detail_url": "#"
+    },
+    {
+        "image_url": "/img/partnership/accomodation/main/acc-1.png",
+        "name": "Hotel Pantai Ujung Genteng",
+        "star": 4,
+        "category": "Hotel",
+        "location_url": "#",
+        "location_text": "Cijaringao, Bandung",
+        "facilities":  [
+            "Wifi",
+            "Swimming Pool",
+            "Parking",
+            "Restaurant",
+            "Rating bintang dan harga",
+            "24-Hour Front Desk",
+            "Wheelchair Access",
+            "Fitness Center"],
+        "minimum_price": "Rp500.000",
+        "maximum_price": "Rp700.000",
+        "ordering_url": "#",
+        "detail_url": "/accomodation-detail"
+    },
+    {
+        "image_url": "/img/partnership/accomodation/main/acc-2.png",
+        "name": "Penginapan Cimahi",
+        "star": 5,
+        "category": "Lodging",
+        "location_url": "#",
+        "location_text": "Kebon Kopi, Cimahi",
+        "facilities":  [
+            "Wifi",
+            "24-Hour Front Desk",
+            "Wheelchair Access",
+            "Restaurant"],
+        "minimum_price": "Rp450.000",
+        "maximum_price": "Rp650.000",
+        "ordering_url": "#",
+        "detail_url": "#"
+    },
+    {
+        "image_url": "/img/partnership/accomodation/main/acc-3.png",
+        "name": "Rumah Murah Ciwaruga",
+        "star": 1,
+        "category": "Homestay",
+        "location_url": "#",
+        "location_text": "Ciwaruga, Gegerkalong",
+        "facilities":  [
+            "Wifi",
+            "24-Hour Front Desk",
+            "Wheelchair Access"
+            ],
+        "minimum_price": "Rp300.000",
+        "maximum_price": "Rp500.000",
+        "ordering_url": "#",
+        "detail_url": "#"
+    },
+    {
+        "image_url": "/img/partnership/accomodation/main/acc-1.png",
+        "name": "Hotel Pantai Ujung Genteng",
+        "star": 5,
+        "category": "Hotel",
+        "location_url": "#",
+        "location_text": "Cijaringao, Bandung",
+        "facilities":  [
+            "Wifi",
+            "Swimming Pool",
+            "Parking",
+            "Restaurant",
+            "Rating bintang dan harga",
+            "24-Hour Front Desk",
+            "Wheelchair Access",
+            "Fitness Center"],
+        "minimum_price": "Rp500.000",
+        "maximum_price": "Rp700.000",
+        "ordering_url": "#",
+        "detail_url": "/accomodation-detail"
+    },
+    {
+        "image_url": "/img/partnership/accomodation/main/acc-2.png",
+        "name": "Penginapan Cimahi",
+        "star": 4,
+        "category": "Lodging",
+        "location_url": "#",
+        "location_text": "Kebon Kopi, Cimahi",
+        "facilities":  [
+            "Wifi",
+            "24-Hour Front Desk",
+            "Wheelchair Access",
+            "Restaurant"],
+        "minimum_price": "Rp450.000",
+        "maximum_price": "Rp650.000",
+        "ordering_url": "#",
+        "detail_url": "#"
+    },
+    {
+        "image_url": "/img/partnership/accomodation/main/acc-3.png",
+        "name": "Rumah Murah Ciwaruga",
+        "star": 3,
+        "category": "Homestay",
+        "location_url": "#",
+        "location_text": "Ciwaruga, Gegerkalong",
+        "facilities":  [
+            "Wifi",
+            "24-Hour Front Desk",
+            "Wheelchair Access"
+            ],
+        "minimum_price": "Rp300.000",
+        "maximum_price": "Rp500.000",
+        "ordering_url": "#",
+        "detail_url": "#"
+    }
+
+        
+]

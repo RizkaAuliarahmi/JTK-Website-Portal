@@ -1,0 +1,44 @@
+[
+  {
+    "img": "/img/partnership/attraction/main/att-1.png",
+    "name": "Sea World Bandung",
+    "start": "08.00 WIB",
+    "end": "20.00 WIB",
+    "price": "50.000"
+  },
+  {
+    "img": "/img/partnership/attraction/main/att-2.png",
+    "name": "Wisata Batu",
+    "start": "08.00 WIB",
+    "end": "20.00 WIB",
+    "price": "50.000"
+  },
+  {
+    "img": "/img/partnership/attraction/main/att-3.png",
+    "name": "Keliling Beach",
+    "start": "08.00 WIB",
+    "end": "20.00 WIB",
+    "price": "50.000"
+  },
+  {
+    "img": "/img/partnership/attraction/main/att-4.png",
+    "name": "Roller Coaster",
+    "start": "08.00 WIB",
+    "end": "20.00 WIB",
+    "price": "50.000"
+  },
+  {
+    "img": "/img/partnership/attraction/main/att-5.png",
+    "name": "Badut",
+    "start": "08.00 WIB",
+    "end": "20.00 WIB",
+    "price": "50.000"
+  },
+  {
+    "img": "/img/partnership/attraction/main/att-6.png",
+    "name": "Roller Coaster",
+    "start": "08.00 WIB",
+    "end": "20.00 WIB",
+    "price": "50.000"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "general_facility_list": ["Wifi", "Delivery Order", "Parking"],
+  "type_list": ["Restaurant", "Cafe", "Coffe Shop"],
+  "priceInput": [
+    "Rp0",
+    "Rp50.000",
+    "Rp100.000",
+    "Rp150.000",
+    "Rp200.000",
+    "Rp250.000",
+    "Rp300.000",
+    "Rp350.000",
+    "Rp400.000",
+    "Rp450.000",
+    "Rp500.000",
+    "Rp550.000",
+    "Rp600.000",
+    "Rp650.000",
+    "Rp700.000",
+    "Rp750.000"
+  ],
+  "restaurantTag": [
+    "Tanpa Sorting",
+    "Harga (termurah dulu)",
+    "Ulasan terbaik dan harga terendah",
+    "Restaurant (terbaik)",
+    "Pilihan terbaik keluarga (rekomendasi)",
+    "Wifi",
+    "Take Away",
+    "Dine In"
+  ],
+  "restaurantStar": [5, 4, 3, 2, 1, 0]
+}

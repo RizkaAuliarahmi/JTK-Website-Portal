@@ -1,0 +1,54 @@
+{
+  "listPrecept": [
+    "e.g.",
+    "Guests must be at least 92cm to get on this ride.",
+    "Guests over 92cm and under 122cm need to be accompanied by another guest.",
+    "Guests must be able to sit up and maintain their posture in the vehicle on their own.",
+    "Small children must sit alone.",
+    "lorem ipsum dolor sit amet lorem",
+    "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet",
+    "lorem ipsum dolor sit amet lorem ipsum dolor sit amet"
+  ],
+  "gallery": [
+    {
+      "img": "/img/partnership/attraction/detail/gallery/attraction.png",
+      "title": "Atraksi A",
+      "sub_title": "Lorem ipsum",
+      "description": "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet"
+    },
+    {
+      "img": "/img/partnership/restaurant/detail/gallery/rumahkaca.png",
+      "title": "Indoor Area",
+      "sub_title": "Buttler Bar & Distro",
+      "description": "Indoor Area means all space between a floor and a ceiling that is bounded by walls, doorways, or windows, whether open or closed."
+    },
+    {
+      "img": "/img/partnership/attraction/detail/gallery/attraction1.png",
+      "title": "Atraksi B",
+      "sub_title": "Lorem ipsum",
+      "description": "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet"
+    },
+    {
+      "img": "/img/partnership/attraction/detail/gallery/attraction2.png",
+      "title": "Atraksi C",
+      "sub_title": "Lorem ipsum",
+      "description": "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet"
+    },
+    {
+      "img": "/img/partnership/attraction/detail/gallery/attraction3.png",
+      "title": "Atraksi D",
+      "sub_title": "Lorem ipsum",
+      "description": "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet"
+    }
+  ],
+  "infoCard": {
+    "name": "Sea World Bandung",
+    "open": "08.00",
+    "close": "20.00",
+    "price": "50.000",
+    "contact_number": "+62 851-2312-3123",
+    "address": "Parongpong, Bandung",
+    "img": "/img/partnership/attraction/detail/attraction.png"
+  },
+  "detailTabs": ["PRECEPT", "GALLERY"]
+}

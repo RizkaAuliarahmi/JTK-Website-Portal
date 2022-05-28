@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "link": "#",
+    "title": "Festival Indonesian Food",
+    "date": "4-10 April 2022",
+    "location": "Curug Cimarinjung",
+    "text": "Ice is definitely cold, but cold is not necessarily ice",
+    "img": "/img/events/food.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vehicula consectetur lectus at tortor. Suspendisse nulla nisi dictumst enim quam scelerisque quam et eu. Vitae enim egestas in habitasse sed tortor sem phasellus. Ut tortor viverra tortor et et viverra sapien tristique feugiat."
+  },
+  {
+    "id": "2",
+    "link": "#",
+    "title": "Festival Indonesian Food",
+    "date": "4-10 April 2022",
+    "location": "Curug Cimarinjung",
+    "text": "Ice is definitely cold, but cold is not necessarily ice",
+    "img": "/img/events/chef.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vehicula consectetur lectus at tortor. Suspendisse nulla nisi dictumst enim quam scelerisque quam et eu. Vitae enim egestas in habitasse sed tortor sem phasellus. Ut tortor viverra tortor et et viverra sapien tristique feugiat."
+  },
+  {
+    "id": "3",
+    "link": "#",
+    "title": "Surfing festival",
+    "date": "4-10 April 2022",
+    "location": "Curug Cimarinjung",
+    "text": "Ice is definitely cold, but cold is not necessarily ice",
+    "img": "/img/events/surfing.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vehicula consectetur lectus at tortor. Suspendisse nulla nisi dictumst enim quam scelerisque quam et eu. Vitae enim egestas in habitasse sed tortor sem phasellus. Ut tortor viverra tortor et et viverra sapien tristique feugiat."
+  },
+  {
+    "id": "4",
+    "link": "#",
+    "title": "Hiking with us!",
+    "date": "4-10 April 2022",
+    "location": "Curug Cimarinjung",
+    "text": "Ice is definitely cold, but cold is not necessarily ice",
+    "img": "/img/events/hiking.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vehicula consectetur lectus at tortor. Suspendisse nulla nisi dictumst enim quam scelerisque quam et eu. Vitae enim egestas in habitasse sed tortor sem phasellus. Ut tortor viverra tortor et et viverra sapien tristique feugiat."
+  }
+]

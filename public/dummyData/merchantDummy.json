@@ -1,0 +1,66 @@
+{
+  "infoCard": {
+    "name": "Toko Buah Tangan",
+    "star": 5,
+    "price_min": "15.000",
+    "price_max": "250.000",
+    "open": "08.00",
+    "close": "20.00",
+    "contact_number": "+62 851-1234-5678",
+    "address": "Jl. Baru No. 36, Kel. Kenten, Kec. Ciwa, Kab. Banyuasin, Medan, Indonesia",
+    "img": "/img/partnership/merchant/toko-buah-tangan.png"
+  },
+  "detailTabs": ["INFO & ADDRESS", "PRODUCT", "GALLERY"],
+  "gallery": [
+    {
+      "img": "/img/partnership/merchant/kalung1.png",
+      "title": "Tambolaka necklace",
+      "sub_title": "Toko Buah Tangan",
+      "description": "Tambolaka necklace is a stone necklace of the Nusantara series that carries the name of the City in Southwest Sumba, East Nusa Tenggara. The city which is famous for having beautiful coastal views is famous to foreign countries."
+    },
+    {
+      "img": "/img/partnership/merchant/kalung2.png",
+      "title": "Agate necklace",
+      "sub_title": "Toko Buah Tangan",
+      "description": "Agate crystal meaning was one of spiritual protection, cleansing their mind to make space for good luck and fortune."
+    },
+    {
+      "img": "/img/partnership/merchant/kalung3.png",
+      "title": "Aspiration necklace",
+      "sub_title": "Toko Buah Tangan",
+      "description": "The Aspiration Necklace is a true celebration of timeless elegance. Designed to be paired with the delicate Aspiration Earrings, this necklace is an everyday essential. "
+    },
+    {
+      "img": "/img/partnership/merchant/kalung1.png",
+      "title": "Tambolaka necklace",
+      "sub_title": "Toko Buah Tangan",
+      "description": "Tambolaka necklace is a stone necklace of the Nusantara series that carries the name of the City in Southwest Sumba, East Nusa Tenggara. The city which is famous for having beautiful coastal views is famous to foreign countries."
+    },
+    {
+      "img": "/img/partnership/merchant/kalung2.png",
+      "title": "Agate necklace",
+      "sub_title": "Toko Buah Tangan",
+      "description": "Agate crystal meaning was one of spiritual protection, cleansing their mind to make space for good luck and fortune."
+    },
+    {
+      "img": "/img/partnership/merchant/kalung3.png",
+      "title": "Aspiration necklace",
+      "sub_title": "Toko Buah Tangan",
+      "description": "The Aspiration Necklace is a true celebration of timeless elegance. Designed to be paired with the delicate Aspiration Earrings, this necklace is an everyday essential. "
+    }
+  ],
+  "productList": [
+    "Love batik fan",
+    "Batik wallet",
+    "Batik prayer rugs",
+    "lorem ipsum dolor",
+    "lorem ipsum dolor",
+    "lorem ipsum dolor",
+    "lorem ipsum dolor",
+    "lorem ipsum dolor",
+    "lorem ipsum dolor",
+    "lorem ipsum dolor",
+    "lorem ipsum dolor",
+    "lorem ipsum dolor"
+  ]
+}

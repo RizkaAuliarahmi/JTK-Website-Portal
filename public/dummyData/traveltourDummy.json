@@ -1,0 +1,71 @@
+{
+  "infoCard": {
+    "name": "PT. Interlink Tours & Travel",
+    "price_min": "200.000",
+    "price_max": "350.000",
+    "contact_number": "+62 851-1326-6889",
+    "address": "Jl. Kencana No. 165, Kel. Batu Anyelir, Kec. Talang, Kab. Nusa, Madiun, Indonesia",
+    "img": "/img/partnership/traveltour/interlink.png"
+  },
+  "detailTabs": ["INFO & ADDRESS", "FACILITIES", "GALLERY"],
+  "gallery": [
+    {
+      "img": "/img/partnership/traveltour/interlink.png",
+      "itinerary": [
+        "Farmhouse, Lembang",
+        "Culinary Tour in Dusun Bambu",
+        "Kawah Putih, Ciwidey"
+      ]
+    },
+    {
+      "img": "/img/partnership/traveltour/golden.png",
+      "itinerary": [
+        "Farmhouse, Lembang",
+        "Culinary Tour in Dusun Bambu",
+        "Kawah Putih, Ciwidey"
+      ]
+    },
+    {
+      "img": "/img/partnership/traveltour/mz.png",
+      "itinerary": [
+        "Farmhouse, Lembang",
+        "Culinary Tour in Dusun Bambu",
+        "Kawah Putih, Ciwidey"
+      ]
+    },
+    {
+      "img": "/img/partnership/traveltour/exodus.png",
+      "itinerary": [
+        "Farmhouse, Lembang",
+        "Culinary Tour in Dusun Bambu",
+        "Kawah Putih, Ciwidey"
+      ]
+    },
+    {
+      "img": "/img/partnership/traveltour/raja.png",
+      "itinerary": [
+        "Farmhouse, Lembang",
+        "Culinary Tour in Dusun Bambu",
+        "Kawah Putih, Ciwidey"
+      ]
+    }
+  ],
+  "facilitiesList": [
+    "Air Purifier",
+    "Tour Guide",
+    "Wifi",
+    "Air Conditioner",
+    "Air Purifier",
+    "Tour Guide",
+    "Wifi",
+    "Air Conditioner",
+    "Air Purifier",
+    "Tour Guide",
+    "Wifi",
+    "Air Conditioner",
+    "Air Purifier",
+    "Tour Guide",
+    "Wifi",
+    "Air Conditioner"
+  ]
+}

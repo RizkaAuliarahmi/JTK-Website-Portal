@@ -1,0 +1,123 @@
+{
+  "facilities": [
+    {
+      "img": "/img/partnership/restaurant/detail/facility/general.png",
+      "type": "General",
+      "facilityDetail": ["A", "B", "C", "D", "E", "F", "G"]
+    },
+    {
+      "img": "/img/partnership/restaurant/detail/facility/public.png",
+      "type": "Public Facilities",
+      "facilityDetail": ["A", "B", "C", "D", "E", "F", "G"]
+    },
+    {
+      "img": "/img/partnership/restaurant/detail/facility/wifi.png",
+      "type": "Connectivity",
+      "facilityDetail": ["A", "B", "C", "D", "E", "F", "G"]
+    },
+    {
+      "img": "/img/partnership/restaurant/detail/facility/business.png",
+      "type": "Business Facilities",
+      "facilityDetail": ["A", "B", "C", "D", "E", "F", "G"]
+    },
+    {
+      "img": "/img/partnership/restaurant/detail/facility/accesibility.png",
+      "type": "Accesibility",
+      "facilityDetail": ["A", "B", "C", "D", "E", "F", "G"]
+    },
+    {
+      "img": "/img/partnership/restaurant/detail/facility/kidpets.png",
+      "type": "Kids and Pets",
+      "facilityDetail": ["A", "B", "C", "D", "E", "F", "G"]
+    }
+  ],
+  "gallery": [
+    {
+      "img": "/img/partnership/restaurant/detail/gallery/serodotan.png",
+      "title": "Play Ground",
+      "sub_title": "Buttler Bar & Distro",
+      "description": "A playground, playpark, or play area is a place designed to provide an environment for children that facilitates play, typically outdoors."
+    },
+    {
+      "img": "/img/partnership/restaurant/detail/gallery/rumahkaca.png",
+      "title": "Indoor Area",
+      "sub_title": "Buttler Bar & Distro",
+      "description": "Indoor Area means all space between a floor and a ceiling that is bounded by walls, doorways, or windows, whether open or closed."
+    },
+    {
+      "img": "/img/partnership/restaurant/detail/gallery/meja.png",
+      "title": "Outdoor Area",
+      "sub_title": "Buttler Bar & Distro",
+      "description": "Outdoor area means an area, whether or not enclosed by a roof, which is open to the elements, and which is not constructed for year round use."
+    },
+    {
+      "img": "/img/partnership/restaurant/detail/gallery/serodotan.png",
+      "title": "Play Ground",
+      "sub_title": "Buttler Bar & Distro",
+      "description": "A playground, playpark, or play area is a place designed to provide an environment for children that facilitates play, typically outdoors."
+    },
+    {
+      "img": "/img/partnership/restaurant/detail/gallery/rumahkaca.png",
+      "title": "Indoor Area",
+      "sub_title": "Buttler Bar & Distro",
+      "description": "Indoor Area means all space between a floor and a ceiling that is bounded by walls, doorways, or windows, whether open or closed."
+    },
+    {
+      "img": "/img/partnership/restaurant/detail/gallery/meja.png",
+      "title": "Outdoor Area",
+      "sub_title": "Buttler Bar & Distro",
+      "description": "Outdoor area means an area, whether or not enclosed by a roof, which is open to the elements, and which is not constructed for year round use."
+    }
+  ],
+  "menu": [
+    {
+      "img": "/img/partnership/restaurant/detail/menu/sayur.png",
+      "title": "Salad",
+      "sub_title": "Buttler Bar & Distro",
+      "description": "A cold dish of various mixtures of raw or cooked vegetables, usually seasoned with oil, vinegar, or other dressing and sometimes accompanied by meat, fish, or other ingredients."
+    },
+    {
+      "img": "/img/partnership/restaurant/detail/menu/burger.png",
+      "title": "Mozarella Cheese Burger",
+      "sub_title": "Buttler Bar & Distro",
+      "description": "An American-style entree consisting of a patty of grilled, fried, or seared ground beef topped by a slice of cheese, wrapped with two halves of a bun."
+    },
+    {
+      "img": "/img/partnership/restaurant/detail/menu/roti.png",
+      "title": "Toast",
+      "sub_title": "Buttler Bar & Distro",
+      "description": "A sliced bread browned on both sides by exposure to radiant heat."
+    },
+    {
+      "img": "/img/partnership/restaurant/detail/menu/sayur.png",
+      "title": "Salad",
+      "sub_title": "Buttler Bar & Distro",
+      "description": "A cold dish of various mixtures of raw or cooked vegetables, usually seasoned with oil, vinegar, or other dressing and sometimes accompanied by meat, fish, or other ingredients."
+    },
+    {
+      "img": "/img/partnership/restaurant/detail/menu/burger.png",
+      "title": "Mozarella Cheese Burger",
+      "sub_title": "Buttler Bar & Distro",
+      "description": "An American-style entree consisting of a patty of grilled, fried, or seared ground beef topped by a slice of cheese, wrapped with two halves of a bun."
+    },
+    {
+      "img": "/img/partnership/restaurant/detail/menu/roti.png",
+      "title": "Toast",
+      "sub_title": "Buttler Bar & Distro",
+      "description": "A sliced bread browned on both sides by exposure to radiant heat."
+    }
+  ],
+  "infoCard": {
+    "name": "Butler Bar & Bistro",
+    "category": "Cafe",
+    "star": 5,
+    "price_min": "35.000",
+    "price_max": "350.000",
+    "open": "10.00",
+    "close": "22.00",
+    "contact_number": "081222333444",
+    "address": "Cihideung, Palabuhan Ratu",
+    "img": "/img/partnership/restaurant/detail/resto.png"
+  },
+  "detailTabs": ["INFO & ADDRESS", "FACILITIES", "GALLERY", "MENU"]
+}

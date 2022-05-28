@@ -1,0 +1,269 @@
+{
+  "hotel": [
+    {
+      "img": "/img/partnership/portal/hotel/77SunSetPlaza.png",
+      "type": "77 SunSet Plaza",
+      "link_detail": "/accomodation-detail"
+    },
+    {
+      "img": "/img/partnership/portal/hotel/KarangSariHotel.png",
+      "type": "KarangSari Hotel"
+    },
+    {
+      "img": "/img/partnership/portal/hotel/AgustaHotel.png",
+      "type": "Agusta Hotel"
+    },
+    {
+      "img": "/img/partnership/portal/hotel/LagusaHotel.png",
+      "type": "Lagusa Hotel"
+    },
+    {
+      "img": "/img/partnership/portal/hotel/77SunSetPlaza.png",
+      "type": "77 SunSet Plaza"
+    },
+    {
+      "img": "/img/partnership/portal/hotel/KarangSariHotel.png",
+      "type": "KarangSari Hotel"
+    },
+    {
+      "img": "/img/partnership/portal/hotel/AgustaHotel.png",
+      "type": "Agusta Hotel"
+    },
+    {
+      "img": "/img/partnership/portal/hotel/LagusaHotel.png",
+      "type": "Lagusa Hotel"
+    },
+    {
+      "img": "/img/partnership/portal/hotel/77SunSetPlaza.png",
+      "type": "77 SunSet Plaza"
+    },
+    {
+      "img": "/img/partnership/portal/hotel/KarangSariHotel.png",
+      "type": "KarangSari Hotel"
+    },
+    {
+      "img": "/img/partnership/portal/hotel/AgustaHotel.png",
+      "type": "Agusta Hotel"
+    },
+    {
+      "img": "/img/partnership/portal/hotel/LagusaHotel.png",
+      "type": "Lagusa Hotel"
+    }
+  ],
+  "traveltour": [
+    {
+      "img": "/img/partnership/portal/traveltour/InterlinkToursTravel.png",
+      "type": "PT. Interlink Tours & Travel",
+      "link_detail": "/traveltour-detail"
+    },
+    {
+      "img": "/img/partnership/portal/traveltour/GoldenRamaTours.png",
+      "type": "Golden Rama Tours"
+    },
+    {
+      "img": "/img/partnership/portal/traveltour/MZTourTravel.png",
+      "type": "MZ Tour & Travel"
+    },
+    {
+      "img": "/img/partnership/portal/traveltour/ExodusTour.png",
+      "type": "Exodus Tour"
+    },
+    {
+      "img": "/img/partnership/portal/traveltour/InterlinkToursTravel.png",
+      "type": "PT. Interlink Tours & Travel"
+    },
+    {
+      "img": "/img/partnership/portal/traveltour/GoldenRamaTours.png",
+      "type": "Golden Rama Tours"
+    },
+    {
+      "img": "/img/partnership/portal/traveltour/MZTourTravel.png",
+      "type": "MZ Tour & Travel"
+    },
+    {
+      "img": "/img/partnership/portal/traveltour/ExodusTour.png",
+      "type": "Exodus Tour"
+    },
+    {
+      "img": "/img/partnership/portal/traveltour/InterlinkToursTravel.png",
+      "type": "PT. Interlink Tours & Travel"
+    },
+    {
+      "img": "/img/partnership/portal/traveltour/GoldenRamaTours.png",
+      "type": "Golden Rama Tours"
+    },
+    {
+      "img": "/img/partnership/portal/traveltour/MZTourTravel.png",
+      "type": "MZ Tour & Travel"
+    },
+    {
+      "img": "/img/partnership/portal/traveltour/ExodusTour.png",
+      "type": "Exodus Tour"
+    }
+  ],
+  "merchant": [
+    {
+      "img": "/img/partnership/portal/merchant/Decorative.png",
+      "type": "Decorative Crafts",
+      "link_detail": "/merchant-detail"
+    },
+    {
+      "img": "/img/partnership/portal/merchant/NaturalStoneJewelry.png",
+      "type": "Natural Stone Jewelry Crafts"
+    },
+    {
+      "img": "/img/partnership/portal/merchant/BatikPakidulan.png",
+      "type": "Batik Pakidulan"
+    },
+    {
+      "img": "/img/partnership/portal/merchant/MiniatureWoodenBoat.png",
+      "type": "Miniature Wooden Boat"
+    },
+    {
+      "img": "/img/partnership/portal/merchant/Decorative.png",
+      "type": "Decorative Crafts"
+    },
+    {
+      "img": "/img/partnership/portal/merchant/NaturalStoneJewelry.png",
+      "type": "Natural Stone Jewelry Crafts"
+    },
+    {
+      "img": "/img/partnership/portal/merchant/BatikPakidulan.png",
+      "type": "Batik Pakidulan"
+    },
+    {
+      "img": "/img/partnership/portal/merchant/MiniatureWoodenBoat.png",
+      "type": "Miniature Wooden Boat"
+    },
+    {
+      "img": "/img/partnership/portal/merchant/Decorative.png",
+      "type": "Decorative Crafts"
+    },
+    {
+      "img": "/img/partnership/portal/merchant/NaturalStoneJewelry.png",
+      "type": "Natural Stone Jewelry Crafts"
+    },
+    {
+      "img": "/img/partnership/portal/merchant/BatikPakidulan.png",
+      "type": "Batik Pakidulan"
+    },
+    {
+      "img": "/img/partnership/portal/merchant/MiniatureWoodenBoat.png",
+      "type": "Miniature Wooden Boat"
+    }
+  ],
+  "attraction": [
+    {
+      "img": "/img/partnership/portal/attractions/SeaWorld.png",
+      "type": "Sea World",
+      "link_detail": "/attraction-detail"
+    },
+    {
+      "img": "/img/partnership/portal/attractions/ClownFestival.png",
+      "type": "Clown Festival"
+    },
+    {
+      "img": "/img/partnership/portal/attractions/Beach.png",
+      "type": "Beach"
+    },
+    {
+      "img": "/img/partnership/portal/attractions/RollerCoaster.png",
+      "type": "Roller Coaster"
+    },
+    {
+      "img": "/img/partnership/portal/attractions/SeaWorld.png",
+      "type": "Sea World"
+    },
+    {
+      "img": "/img/partnership/portal/attractions/ClownFestival.png",
+      "type": "Clown Festival"
+    },
+    {
+      "img": "/img/partnership/portal/attractions/Beach.png",
+      "type": "Beach"
+    },
+    {
+      "img": "/img/partnership/portal/attractions/RollerCoaster.png",
+      "type": "Roller Coaster"
+    },
+    {
+      "img": "/img/partnership/portal/attractions/SeaWorld.png",
+      "type": "Sea World"
+    },
+    {
+      "img": "/img/partnership/portal/attractions/ClownFestival.png",
+      "type": "Clown Festival"
+    },
+    {
+      "img": "/img/partnership/portal/attractions/Beach.png",
+      "type": "Beach"
+    },
+    {
+      "img": "/img/partnership/portal/attractions/RollerCoaster.png",
+      "type": "Roller Coaster"
+    }
+  ],
+  "restaurant": [
+    {
+      "img": "/img/partnership/portal/restaurant/CafeRestoGeoparkPoint.png",
+      "type": "Cafe & Resto Geopark Point",
+      "detail": "Cihejo, Palabuhan Ratu",
+      "link_detail": "/restaurant-detail"
+    },
+    {
+      "img": "/img/partnership/portal/restaurant/CiletuhHillsLodgeCafe.png",
+      "type": "Ciletuh Hills Lodge & Cafe",
+      "detail": "Cibiru, Palabuhan Ratu"
+    },
+    {
+      "img": "/img/partnership/portal/restaurant/RestoranBaleKambang.png",
+      "type": "Restoran Bale Kambang",
+      "detail": "Cibeureum, Palabuhan Ratu"
+    },
+    {
+      "img": "/img/partnership/portal/restaurant/GoleParkCafe.png",
+      "type": "Gole Park Cafe",
+      "detail": "Cikoneng, Palabuhan Ratu"
+    },
+    {
+      "img": "/img/partnership/portal/restaurant/CafeRestoGeoparkPoint.png",
+      "type": "Cafe & Resto Geopark Point",
+      "detail": "Cihejo, Palabuhan Ratu"
+    },
+    {
+      "img": "/img/partnership/portal/restaurant/CiletuhHillsLodgeCafe.png",
+      "type": "Ciletuh Hills Lodge & Cafe",
+      "detail": "Cibiru, Palabuhan Ratu"
+    },
+    {
+      "img": "/img/partnership/portal/restaurant/RestoranBaleKambang.png",
+      "type": "Restoran Bale Kambang",
+      "detail": "Cibeureum, Palabuhan Ratu"
+    },
+    {
+      "img": "/img/partnership/portal/restaurant/GoleParkCafe.png",
+      "type": "Gole Park Cafe",
+      "detail": "Cikoneng, Palabuhan Ratu"
+    },
+    {
+      "img": "/img/partnership/portal/restaurant/CafeRestoGeoparkPoint.png",
+      "type": "Cafe & Resto Geopark Point",
+      "detail": "Cihejo, Palabuhan Ratu"
+    },
+    {
+      "img": "/img/partnership/portal/restaurant/CiletuhHillsLodgeCafe.png",
+      "type": "Ciletuh Hills Lodge & Cafe",
+      "detail": "Cibiru, Palabuhan Ratu"
+    },
+    {
+      "img": "/img/partnership/portal/restaurant/RestoranBaleKambang.png",
+      "type": "Restoran Bale Kambang",
+      "detail": "Cibeureum, Palabuhan Ratu"
+    },
+    {
+      "img": "/img/partnership/portal/restaurant/GoleParkCafe.png",
+      "type": "Gole Park Cafe",
+      "detail": "Cikoneng, Palabuhan Ratu"
+    }
+  ]
+}
