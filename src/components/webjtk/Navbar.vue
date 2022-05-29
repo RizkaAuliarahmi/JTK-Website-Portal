@@ -57,7 +57,7 @@
               <a href="#">Jurusan</a>
               <a href="/struktur-organisasi">Struktur Organisasi</a>
               <a href="#">Sarana Prasarana</a>
-              <a href="#">Daftar Prestasi</a>
+              <a href="/achievement">Daftar Prestasi</a>
             </div>
           </a>
           <a
