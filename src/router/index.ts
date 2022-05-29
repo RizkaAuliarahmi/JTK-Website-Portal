@@ -7,6 +7,7 @@ import NewsPortal from "../views/NewsPortal.vue";
 // import StrukturOrganisasi from "../views/StrukturOrganisasi.vue"
 import StrukturOrganisasi from "../views/StrukturOrganisasi.vue";
 import EmployeeProfile from "../views/EmployeeProfile.vue";
+import AchievementList from "../views/AchievementList.vue";
 Vue.use(VueRouter);
 
 const routes: Array<RouteConfig> = [
@@ -20,7 +21,7 @@ const routes: Array<RouteConfig> = [
     name: "<Event Title> | Acara | Jurusan Teknik Komputer dan Informatika POLBAN",
     component: Event,
   },
-  { 
+  {
     path: "/news",
     name: "Berita",
     component: NewsPortal,
@@ -34,6 +35,11 @@ const routes: Array<RouteConfig> = [
     path: "/profil-pegawai",
     name: "ProfilPegawai",
     component: EmployeeProfile
+  },
+  {
+    path: "/achievement",
+    name: "Daftar Prestasi | Jurusan Teknik Komputer dan Informatika POLBAN",
+    component: AchievementList,
   },
 ];
 
