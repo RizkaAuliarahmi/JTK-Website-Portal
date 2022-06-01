@@ -10,7 +10,7 @@ import StrukturOrganisasi from "../views/StrukturOrganisasi.vue";
 import EmployeeProfile from "../views/EmployeeProfile.vue";
 import AchievementList from "../views/AchievementList.vue";
 import Partnership from "../views/Partnership.vue";
-import ContactUs from "../views/ContactUs.vue";
+
 
 Vue.use(VueRouter);
 
@@ -54,11 +54,7 @@ const routes: Array<RouteConfig> = [
     path: "/partnership",
     name: "Mitra Kami",
     component: Partnership,
-  },{
-    path: "/contact-us",
-    name: "ContactUs",
-    component: ContactUs,
-  },
+  }
 ];
 
 const router = new VueRouter({
