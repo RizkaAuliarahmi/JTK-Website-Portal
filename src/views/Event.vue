@@ -1,7 +1,7 @@
 <template>
   <div>
     <Navbar />
-    <BannerImage :image="ChefImage" />
+    <BannerImage :image="image" />
     <div class="ma-16">
       <v-row>
         <h1 class="headline">
