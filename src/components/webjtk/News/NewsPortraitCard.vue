@@ -49,7 +49,7 @@
   border-radius: 4px;
   flex: 0 0 31.25%;
   height: 370px !important;
-  width: 314px;
+  width: auto;
 }
 
 .h-max {
