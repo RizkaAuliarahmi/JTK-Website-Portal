@@ -19,7 +19,7 @@ const routes: Array<RouteConfig> = [
     component: LandingPage,
   },
   {
-    path: "/event/1",
+    path: "/event/:id",
     name: "<Event Title> | Acara | Jurusan Teknik Komputer dan Informatika POLBAN",
     component: Event,
   },
