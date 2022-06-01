@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- <Navbar /> -->
+    <Navbar />
     <img
       src="../../public/img/events/layangan.png"
       :style="{
@@ -38,18 +38,21 @@
       <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tristique senectus et netus et malesuada fames ac. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Placerat vestibulum lectus mauris ultrices. Orci eu lobortis elementum nibh tellus molestie nunc. Ut ornare lectus sit amet est. Commodo quis imperdiet massa tincidunt nunc. Orci sagittis eu volutpat odio facilisis. Donec massa sapien faucibus et molestie ac feugiat. Tincidunt vitae semper quis lectus nulla. Tellus pellentesque eu tincidunt tortor aliquam. Non diam phasellus vestibulum lorem sed risus ultricies. Quis blandit turpis cursus in hac habitasse. Suscipit tellus mauris a diam maecenas sed enim ut.></div>
     </div>
     <!-- <EventCarousel /> -->
-    <!-- <Footer /> -->
+    <Footer />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
+import Navbar from "./../components/webjtk/Navbar.vue"
+import Footer from "./../components/webjtk/Footer.vue"
+
 export default Vue.extend({
   name: "Event",
   components: {
-    // Navbar,
+    Navbar,
     // EventCarousel,
-    // Footer,
+    Footer,
   },
   //   data() {
   //     return {
