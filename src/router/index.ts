@@ -9,7 +9,9 @@ import NewsDetail from "../views/NewsDetail.vue";
 import StrukturOrganisasi from "../views/StrukturOrganisasi.vue";
 import EmployeeProfile from "../views/EmployeeProfile.vue";
 import AchievementList from "../views/AchievementList.vue";
+import Partnership from "../views/Partnership.vue";
 import ContactUs from "../views/ContactUs.vue";
+
 Vue.use(VueRouter);
 
 const routes: Array<RouteConfig> = [
@@ -19,7 +21,7 @@ const routes: Array<RouteConfig> = [
     component: LandingPage,
   },
   {
-    path: "/event/1",
+    path: "/event/:id",
     name: "<Event Title> | Acara | Jurusan Teknik Komputer dan Informatika POLBAN",
     component: Event,
   },
@@ -39,9 +41,9 @@ const routes: Array<RouteConfig> = [
     component: StrukturOrganisasi
   },
   {
-    path: "/profil-pegawai",
+    path: "/profil-pegawai/:id",
     name: "ProfilPegawai",
-    component: EmployeeProfile
+    component: EmployeeProfile,
   },
   {
     path: "/achievement",
@@ -49,6 +51,10 @@ const routes: Array<RouteConfig> = [
     component: AchievementList,
   },
   {
+    path: "/partnership",
+    name: "Mitra Kami",
+    component: Partnership,
+  },{
     path: "/contact-us",
     name: "ContactUs",
     component: ContactUs,
@@ -71,6 +77,7 @@ const router = new VueRouter({
 });
 
 const DEFAULT_TITLE = "Website JTK";
+// eslint-disable-next-line
 router.afterEach((to, from) => {
   Vue.nextTick(() => {
     document.title = to.name || DEFAULT_TITLE;

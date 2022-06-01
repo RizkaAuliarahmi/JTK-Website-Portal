@@ -220,7 +220,7 @@
 
 <script lang="ts">
 import Vue from "vue";
-import axios from "axios";
+// import axios from "axios";
 
 export default Vue.extend({
   name: "Navbar",
@@ -236,16 +236,16 @@ export default Vue.extend({
       scrollPosition: 0,
     };
   },
-  created() {
-    this.fetchData();
-  },
-  methods: {
-    async fetchData() {
-      const navbarList = await axios.get(this.CMS_API + "/navigation-menu");
-      const logoHeader = await axios.get(this.CMS_API + "/logo-header");
-      this.navbarList = navbarList.data;
-      this.logoHeader = logoHeader.data;
-    },
-  },
+  // created() {
+  //   this.fetchData();
+  // },
+  // methods: {
+  //   async fetchData() {
+  //     const navbarList = await axios.get(this.CMS_API + "/navigation-menu");
+  //     const logoHeader = await axios.get(this.CMS_API + "/logo-header");
+  //     this.navbarList = navbarList.data;
+  //     this.logoHeader = logoHeader.data;
+  //   },
+  // },
 });
 </script>
