@@ -2,9 +2,9 @@
   <div>
     <Navbar />
     <BannerImage :image="ChefImage" />
-    <div class="event-page-content">
+    <div class="ma-16">
       <v-row>
-        <h1>
+        <h1 class="headline">
           <strong>
             SEMINAR INDUSTRI : PROGRAM MAGISTER TERAPAN REKAYASA INFRASTRUKTUR
           </strong>
@@ -12,7 +12,7 @@
         <v-spacer></v-spacer>
         <v-btn color="orange">Register</v-btn>
       </v-row>
-      <div class="event-info">
+      <div class="event-info py-4 my-6">
         <div>
           <h2><strong> Tempat </strong></h2>
           <p>Zoom Meeting</p>
@@ -44,7 +44,7 @@
           Tincidunt vitae semper quis lectus nulla. Tellus pellentesque eu
           tincidunt tortor aliquam. Non diam phasellus vestibulum lorem sed
           risus ultricies. Quis blandit turpis cursus in hac habitasse. Suscipit
-          tellus mauris a diam maecenas sed enim ut.>
+          tellus mauris a diam maecenas sed enim ut.
         </div>
       </div>
     </div>
@@ -79,12 +79,8 @@ export default Vue.extend({
 
 <style scoped>
 .event-info {
-  margin: 25px 0px 25px 0px;
   text-align: center;
   background-color: orange;
-}
-.event-page-content {
-  margin: 100px;
 }
 .event-desc {
   text-align: justify;
