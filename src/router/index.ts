@@ -59,6 +59,7 @@ const router = new VueRouter({
 });
 
 const DEFAULT_TITLE = "Website JTK";
+// eslint-disable-next-line
 router.afterEach((to, from) => {
   Vue.nextTick(() => {
     document.title = to.name || DEFAULT_TITLE;
