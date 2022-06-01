@@ -24,10 +24,14 @@
         <div class="justify-center mx-5 mt-4">
             <p class="text-m font-bold text-center"> Ayo bergabung dengan kami! </p>
         </div>
-        <div class="place-items-center">
-           <div>
-                <v-btn color="orange" class="text-white">Gabung</v-btn>
-           </div>
+        <v-layout align-center justify-center>
+            <v-btn color="orange" class="text-white mx-5 mb-4"> Gabung </v-btn>
+        </v-layout>
+        <div class="flex flex-col my-8">
+            <PartnershipGallery
+                v-if="data_partner"
+                :data="data_partner" 
+            />
         </div>
         <Footer/>
     </div>
@@ -44,10 +48,11 @@ import BannerImage from "../components/webjtk/BannerImage.vue";
 import Navbar from "../components/webjtk/Navbar.vue";
 import Footer from "../components/webjtk/Footer.vue";
 import data from "@/dummy/partnership.json";
+import PartnershipGallery from "@/components/webjtk/PartnershipGallery.vue";
 
 export default {
     components: {
-        BannerImage, Navbar, Footer
+        BannerImage, Navbar, Footer, PartnershipGallery
     },
     name: "Partnership",
 
@@ -55,6 +60,7 @@ export default {
         return {
             CMS_API: process.env.APP_CMS_API,
             data: data,
+            data_partner: data.list_partner,
         };
     },
 }

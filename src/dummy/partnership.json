@@ -11,19 +11,35 @@
     "list_partner": [
         {
             "partner_name": "dicoding",
-            "image_partner": "https://images.glints.com/unsafe/160x0/glints-dashboard.s3.amazonaws.com/company-logo/0ecccc80caed7d3013433880e099e4fb.png"
+            "partner_image": "https://images.glints.com/unsafe/160x0/glints-dashboard.s3.amazonaws.com/company-logo/0ecccc80caed7d3013433880e099e4fb.png"
         },
         {
             "partner_name": "dicoding",
-            "image_partner": "https://images.glints.com/unsafe/160x0/glints-dashboard.s3.amazonaws.com/company-logo/0ecccc80caed7d3013433880e099e4fb.png"
+            "partner_image": "https://images.glints.com/unsafe/160x0/glints-dashboard.s3.amazonaws.com/company-logo/0ecccc80caed7d3013433880e099e4fb.png"
         },
         {
             "partner_name": "dicoding",
-            "image_partner": "https://images.glints.com/unsafe/160x0/glints-dashboard.s3.amazonaws.com/company-logo/0ecccc80caed7d3013433880e099e4fb.png"
+            "partner_image": "https://images.glints.com/unsafe/160x0/glints-dashboard.s3.amazonaws.com/company-logo/0ecccc80caed7d3013433880e099e4fb.png"
         },
         {
             "partner_name": "dicoding",
-            "image_partner": "https://images.glints.com/unsafe/160x0/glints-dashboard.s3.amazonaws.com/company-logo/0ecccc80caed7d3013433880e099e4fb.png"
+            "partner_image": "https://images.glints.com/unsafe/160x0/glints-dashboard.s3.amazonaws.com/company-logo/0ecccc80caed7d3013433880e099e4fb.png"
+        },
+        {
+            "partner_name": "dicoding",
+            "partner_image": "https://images.glints.com/unsafe/160x0/glints-dashboard.s3.amazonaws.com/company-logo/0ecccc80caed7d3013433880e099e4fb.png"
+        },
+        {
+            "partner_name": "dicoding",
+            "partner_image": "https://images.glints.com/unsafe/160x0/glints-dashboard.s3.amazonaws.com/company-logo/0ecccc80caed7d3013433880e099e4fb.png"
+        },
+        {
+            "partner_name": "dicoding",
+            "partner_image": "https://images.glints.com/unsafe/160x0/glints-dashboard.s3.amazonaws.com/company-logo/0ecccc80caed7d3013433880e099e4fb.png"
+        },
+        {
+            "partner_name": "dicoding",
+            "partner_image": "https://images.glints.com/unsafe/160x0/glints-dashboard.s3.amazonaws.com/company-logo/0ecccc80caed7d3013433880e099e4fb.png"
         }
     ]
 }
