@@ -34,7 +34,7 @@ const routes: Array<RouteConfig> = [
     component: StrukturOrganisasi
   },
   {
-    path: "/profil-pegawai",
+    path: "/profil-pegawai/:id",
     name: "ProfilPegawai",
     component: EmployeeProfile
   },

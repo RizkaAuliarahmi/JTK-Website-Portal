@@ -109,7 +109,7 @@ ion-icon {
 
 <script lang="ts">
 import Vue from "vue";
-import axios from "axios";
+// import axios from "axios";
 
 export default Vue.extend({
   name: "Footer",
@@ -122,14 +122,14 @@ export default Vue.extend({
       state: "close",
     };
   },
-  async created() {
-    await this.fetchData();
-  },
-  methods: {
-    async fetchData() {
-      const footerData = await axios.get(this.CMS_API + "/footer");
-      this.footerData = footerData.data;
-    },
-  },
+  // async created() {
+  //   await this.fetchData();
+  // },
+  // methods: {
+  //   async fetchData() {
+  //     const footerData = await axios.get(this.CMS_API + "/footer");
+  //     this.footerData = footerData.data;
+  //   },
+  // },
 });
 </script>
