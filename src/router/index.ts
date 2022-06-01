@@ -3,11 +3,13 @@ import VueRouter, { RouteConfig } from "vue-router";
 import LandingPage from "../views/LandingPage.vue";
 import Event from "../views/Event.vue"
 import NewsPortal from "../views/NewsPortal.vue";
+import NewsDetail from "../views/NewsDetail.vue";
 // import LandingPage from "../temp/LandingPage.vue";
 // import StrukturOrganisasi from "../views/StrukturOrganisasi.vue"
 import StrukturOrganisasi from "../views/StrukturOrganisasi.vue";
 import EmployeeProfile from "../views/EmployeeProfile.vue";
 import AchievementList from "../views/AchievementList.vue";
+import ContactUs from "../views/ContactUs.vue";
 Vue.use(VueRouter);
 
 const routes: Array<RouteConfig> = [
@@ -27,6 +29,11 @@ const routes: Array<RouteConfig> = [
     component: NewsPortal,
   },
   {
+    path: "/news-detail",
+    name: "NewsDetail",
+    component: NewsDetail,
+  },
+  {
     path: "/struktur-organisasi",
     name: "StrukturOrganisasi",
     component: StrukturOrganisasi
@@ -40,6 +47,11 @@ const routes: Array<RouteConfig> = [
     path: "/achievement",
     name: "Daftar Prestasi | Jurusan Teknik Komputer dan Informatika POLBAN",
     component: AchievementList,
+  },
+  {
+    path: "/contact-us",
+    name: "ContactUs",
+    component: ContactUs,
   },
 ];
 
