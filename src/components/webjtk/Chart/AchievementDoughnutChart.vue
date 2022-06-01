@@ -1,6 +1,10 @@
 <template>
   <div>
-    <canvas id="doughnut-chart"></canvas>
+    <div class="grid grid-cols-3 gap-20 mx-32">
+      <div><canvas class="doughnut-chart w-full"></canvas></div>
+      <div><canvas class="doughnut-chart2 w-full"></canvas></div>
+      <div><canvas class="doughnut-chart3 w-full"></canvas></div>
+    </div>
   </div>
 </template>
 
@@ -49,11 +53,18 @@ export default {
   },
   // eslint-disable-next-line
   mounted() {
-    const ctx = document.getElementById("doughnut-chart");
+    const ctx = document.getElementsByClassName("doughnut-chart");
     new Chart(ctx, this.doughnutChartData);
+    const ctx2 = document.getElementsByClassName("doughnut-chart2");
+    new Chart(ctx2, this.doughnutChartData);
+    const ctx3 = document.getElementsByClassName("doughnut-chart3");
+    new Chart(ctx3, this.doughnutChartData);
   },
 };
 </script>
 
 <style scoped>
+.mx-32{
+  margin: 0px 110px 0px 110px;
+}
 </style>
