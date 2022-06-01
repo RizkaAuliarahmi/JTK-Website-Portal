@@ -1,12 +1,14 @@
 <template>
   <div>
-    <DoughnutChart />
+    <div class="Chart">
+      <DoughnutChart />
+    </div>
   </div>
 </template>
 
 <script>
 import Vue from "vue";
-import DoughnutChart from "../components/webjtk/DoughnutChart.vue";
+import DoughnutChart from "../components/webjtk/Chart/DoughnutChart.vue";
 
 export default Vue.extend({
   name: "AchievementList",
@@ -15,3 +17,10 @@ export default Vue.extend({
   },
 });
 </script>
+
+<style scoped>
+.Chart {
+  width: 400px;
+  height: 300px;
+}
+</style>
