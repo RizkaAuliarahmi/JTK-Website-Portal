@@ -58,7 +58,7 @@ import Vue from "vue";
 import BannerImage from "../components/webjtk/BannerImage.vue";
 import Navbar from "./../components/webjtk/Navbar.vue";
 import Footer from "./../components/webjtk/Footer.vue";
-import ChefImage from "./../../public/img/events/chef.png";
+import EventBannerImage from "./../../public/img/events/chef.png";
 
 export default Vue.extend({
   name: "Event",
@@ -71,7 +71,7 @@ export default Vue.extend({
   data: function () {
     return {
       title: "<Event Title>",
-      image: ChefImage,
+      image: EventBannerImage,
     };
   },
 });
