@@ -19,8 +19,7 @@
         </div>
         <div>
           <h2><strong> Waktu </strong></h2>
-          <p>14 April 2022</p>
-          <p>09.00 - 11.00 WIB</p>
+          <p>14 April 2022 09.00 - 11.00 WIB</p>
         </div>
         <div>
           <h2><strong> Pemateri </strong></h2>
