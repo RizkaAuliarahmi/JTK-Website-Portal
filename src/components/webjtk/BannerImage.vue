@@ -1,5 +1,5 @@
 <template>
-  <div class=" grid grid-cols-2 w-screen h-screen"
+  <div class=" grid grid-cols-2 w-screen h-96"
     :style="{
       background: 'url(' + image + ')',
       'background-size': '100% 100%',
