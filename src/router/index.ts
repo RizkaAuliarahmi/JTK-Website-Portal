@@ -10,6 +10,7 @@ import StrukturOrganisasi from "../views/StrukturOrganisasi.vue";
 import EmployeeProfile from "../views/EmployeeProfile.vue";
 import AchievementList from "../views/AchievementList.vue";
 import Partnership from "../views/Partnership.vue";
+import MajorProfile from "../views/MajorProfile.vue";
 
 
 Vue.use(VueRouter);
@@ -56,10 +57,15 @@ const routes: Array<RouteConfig> = [
     component: Partnership,
   },
   {
+    path: "/major-profile",
+    name: "Profil | Jurusan Teknik Komputer dan Informatika POLBAN",
+    component: MajorProfile,
+  },
+  {
     path: "/sarana-prasarana",
     name: "SaranaPrasarana",
     component: SaranaPrasarana
-    }
+  }
 ];
 
 const router = new VueRouter({

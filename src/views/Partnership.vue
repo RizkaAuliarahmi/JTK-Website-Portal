@@ -30,7 +30,8 @@
         <div class="flex flex-col my-8">
             <PartnershipGallery
                 v-if="data_partner"
-                :data="data_partner" 
+                :data="data_partner"
+                :isPartnership="true" 
             />
         </div>
         <Footer/>
