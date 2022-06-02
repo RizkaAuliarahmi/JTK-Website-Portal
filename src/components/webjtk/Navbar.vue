@@ -54,7 +54,7 @@
           >
             <div class="dropbtn text-white hover:underline"> Tentang JTK </div>
             <div class="dropdown-content absolute hidden">
-              <a href="#">Jurusan</a>
+              <a href="/major-profile">Jurusan</a>
               <a href="/struktur-organisasi">Struktur Organisasi</a>
               <a href="#">Sarana Prasarana</a>
               <a href="/achievement">Daftar Prestasi</a>

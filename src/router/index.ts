@@ -9,6 +9,7 @@ import StrukturOrganisasi from "../views/StrukturOrganisasi.vue";
 import EmployeeProfile from "../views/EmployeeProfile.vue";
 import AchievementList from "../views/AchievementList.vue";
 import Partnership from "../views/Partnership.vue";
+import MajorProfile from "../views/MajorProfile.vue";
 
 Vue.use(VueRouter);
 
@@ -47,6 +48,11 @@ const routes: Array<RouteConfig> = [
     path: "/partnership",
     name: "Mitra Kami",
     component: Partnership,
+  },
+  {
+    path: "/major-profile",
+    name: "Profil | Jurusan Teknik Komputer dan Informatika POLBAN",
+    component: MajorProfile,
   },
 ];
 
