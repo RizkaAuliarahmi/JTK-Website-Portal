@@ -3,8 +3,9 @@ import VueRouter, { RouteConfig } from "vue-router";
 import LandingPage from "../views/LandingPage.vue";
 import Event from "../views/Event.vue"
 import NewsPortal from "../views/NewsPortal.vue";
+import NewsDetail from "../views/NewsDetail.vue";
 // import LandingPage from "../temp/LandingPage.vue";
-// import StrukturOrganisasi from "../views/StrukturOrganisasi.vue"
+import SaranaPrasarana from "../views/SaranaPrasarana.vue"
 import StrukturOrganisasi from "../views/StrukturOrganisasi.vue";
 import EmployeeProfile from "../views/EmployeeProfile.vue";
 import AchievementList from "../views/AchievementList.vue";
@@ -12,6 +13,7 @@ import Partnership from "../views/Partnership.vue";
 import MajorProfile from "../views/MajorProfile.vue";
 import D4Page from "../views/D4Page.vue";
 import D3Page from "../views/D3Page.vue";
+
 
 Vue.use(VueRouter);
 
@@ -22,7 +24,7 @@ const routes: Array<RouteConfig> = [
     component: LandingPage,
   },
   {
-    path: "/event/1",
+    path: "/event/:id",
     name: "<Event Title> | Acara | Jurusan Teknik Komputer dan Informatika POLBAN",
     component: Event,
   },
@@ -32,14 +34,19 @@ const routes: Array<RouteConfig> = [
     component: NewsPortal,
   },
   {
+    path: "/news-detail",
+    name: "NewsDetail",
+    component: NewsDetail,
+  },
+  {
     path: "/struktur-organisasi",
     name: "StrukturOrganisasi",
     component: StrukturOrganisasi
   },
   {
-    path: "/profil-pegawai",
+    path: "/profil-pegawai/:id",
     name: "ProfilPegawai",
-    component: EmployeeProfile
+    component: EmployeeProfile,
   },
   {
     path: "/achievement",
@@ -66,6 +73,11 @@ const routes: Array<RouteConfig> = [
     name: "D3 Teknik Informatika | Jurusan Teknik Komputer dan Informatika POLBAN",
     component: D3Page,
   },
+  {
+    path: "/sarana-prasarana",
+    name: "SaranaPrasarana",
+    component: SaranaPrasarana
+  }
 ];
 
 const router = new VueRouter({
