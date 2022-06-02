@@ -66,8 +66,8 @@
           >
             <div class="dropbtn text-white hover:underline"> Program Studi </div>
             <div class="dropdown-content absolute hidden">
-              <a href="#">D3 Teknik Informatika</a>
-              <a href="#">D4 Teknik Informatika</a>
+              <a href="/d3-profile">D3 Teknik Informatika</a>
+              <a href="/d4-profile">D4 Teknik Informatika</a>
             </div>
           </a>
           <a data-v-41458b80="" href="/#" class="navlist mt-1 block px-6 py-1 text-white font-semibold font-montserrat rounded text-white hover:underline"> Partnership </a>
