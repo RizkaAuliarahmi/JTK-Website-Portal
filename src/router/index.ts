@@ -11,6 +11,8 @@ import EmployeeProfile from "../views/EmployeeProfile.vue";
 import AchievementList from "../views/AchievementList.vue";
 import Partnership from "../views/Partnership.vue";
 import MajorProfile from "../views/MajorProfile.vue";
+import D4Page from "../views/D4Page.vue";
+import D3Page from "../views/D3Page.vue";
 
 
 Vue.use(VueRouter);
@@ -60,6 +62,16 @@ const routes: Array<RouteConfig> = [
     path: "/major-profile",
     name: "Profil | Jurusan Teknik Komputer dan Informatika POLBAN",
     component: MajorProfile,
+  },
+  {
+    path: "/d4-profile",
+    name: "D4 Teknik Informatika | Jurusan Teknik Komputer dan Informatika POLBAN",
+    component: D4Page,
+  },
+  {
+    path: "/d3-profile",
+    name: "D3 Teknik Informatika | Jurusan Teknik Komputer dan Informatika POLBAN",
+    component: D3Page,
   },
   {
     path: "/sarana-prasarana",

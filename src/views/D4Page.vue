@@ -2,7 +2,7 @@
     <div class="font-montserrat major-profile">
         <Navbar/>
         <BannerImage
-            title="Profil Jurusan Teknik Komputer dan Informatika"
+            title="D4 Teknik Informatika"
             image="img/webjtk/banner.png"
             color="text-white"
         />
@@ -28,15 +28,15 @@
                     {{ datavismis.Misi }}
                 </p>
             </div>
-            <div class="justify-center mx-5 mt-4">
-                <p class="text-xl font-bold text-center"> Profil Program Studi </p>
+            <div class="mx-20 justify-left">
+                <p class="font-bold text-2xl mb-4">
+                    Tujuan
+                </p>
             </div>
-            <div class="flex flex-col my-8">
-                <PartnershipGallery
-                    v-if="data_major"
-                    :data="data_major"
-                    :isPartnership="false" 
-                />
+            <div class="mx-20 text-l mb-4">
+                <p>
+                    {{ datavismis.Tujuan }}
+                </p>
             </div>
             <div class="my-8 mx-20 color-gray">
                 <p> Terakhir diperbarui pada {{ formatDateStr(datavismis.article_comp.last_update) }} oleh {{ datavismis.article_comp.author }} </p>
@@ -56,39 +56,32 @@ import BannerImage from "../components/webjtk/BannerImage.vue";
 import Navbar from "../components/webjtk/Navbar.vue";
 import Footer from "../components/webjtk/Footer.vue";
 import axios from 'axios'
-import PartnershipGallery from "@/components/webjtk/PartnershipGallery.vue";
 
 var monthNames = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
     pad = function(str) {return ("0"+str).slice(-2);};
 
 export default {
     components: {
-        BannerImage, Navbar, Footer, PartnershipGallery
+        BannerImage, Navbar, Footer
     },
-    name: "MajorProfile",
+    name: "D4Page",
 
     data() {
         return {
-            data_major: [{}],
             datavismis: [{}],
         };
     },
 
     created() {
-        this.fetchDataMajor();
         this.fetchDataVisMis();
         this.formatDateStr();
     },
 
     methods: {
-        async fetchDataMajor() {
-            const data_major = await axios.get("http://localhost:1337/departments");
-            this.data_major = data_major.data;
-        },
 
         async fetchDataVisMis() {
             const datavismis = await axios.get("http://localhost:1337/general-infos");
-            this.datavismis = datavismis.data[0];
+            this.datavismis = datavismis.data[2];
         },
 
         async formatDateStr(dStr) {
