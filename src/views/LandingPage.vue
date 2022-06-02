@@ -12,7 +12,7 @@
 <script>
 import Vue from "vue";
 import Navbar from "../components/webjtk/Navbar.vue";
-import BannerImage from "../components/webjtk/BannerImage.vue";
+import BannerImage from "../components/webjtk/landing-page/BannerImage.vue";
 import News from "../components/webjtk/landing-page/NewsLandingPage.vue"
 import RecentEvent from "./../components/webjtk/Event/RecentEvent.vue";
 import Galeri from "../components/webjtk/landing-page/GaleriLandingPage.vue";

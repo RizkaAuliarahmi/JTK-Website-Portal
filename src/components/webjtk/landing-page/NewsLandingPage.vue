@@ -78,23 +78,23 @@
         </a>
       </div> -->
     </div>
-    <div class="flex items-center inline-block align-middle justify-center">
-      <button
+    <v-layout align-center justify-center>
+      <v-btn
         class="
           see-all-content-btn
           bg-yellow-500
           text-white
           hover:bg-yellow-300 hover:text-black
-          py-2
-          px-1
+          py-5
+          px-0
           border-b-4 border-gray-500
           hover:border-black-500
           rounded
         "
       >
         Lebih Banyak
-      </button>
-    </div>
+      </v-btn>
+    </v-layout>
   </div>
 </template>
 

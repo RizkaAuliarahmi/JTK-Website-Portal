@@ -13,6 +13,7 @@ import Partnership from "../views/Partnership.vue";
 import MajorProfile from "../views/MajorProfile.vue";
 import D4Page from "../views/D4Page.vue";
 import D3Page from "../views/D3Page.vue";
+import ContactUs from "../views/ContactUs.vue";
 
 
 Vue.use(VueRouter);
@@ -76,7 +77,12 @@ const routes: Array<RouteConfig> = [
   {
     path: "/sarana-prasarana",
     name: "SaranaPrasarana",
-    component: SaranaPrasarana
+    component: SaranaPrasarana,
+  },
+  {
+    path: "/contact-us",
+    name: "Kontak Kami",
+    component: ContactUs,
   }
 ];
 
