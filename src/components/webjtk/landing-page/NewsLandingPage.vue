@@ -12,7 +12,7 @@
         <div class="relative flex justify-center items-center">
           <div class="main-news absolute bg-black bg-opacity-60 bg-size">
             <div class="mx-2 my-2">
-              <a class="text-white text-xl font-montserrat" href="#">
+              <a class="text-white text-xl font-montserrat" href="/news-detail">
                 STUDI PETIK/STUDI PEMBELAJARAN TIM AKADEMIK UNIVERSITAS
                 PATTIMURA AMBON KE POLITEKNIK NEGERI BANDUNG
               </a>
@@ -40,7 +40,7 @@
         <div class="relative flex justify-center items-center">
           <div class="main-news absolute bg-black bg-opacity-60 bg-size">
             <div class="mx-2 my-2">
-              <a class="text-white text-xl font-montserrat" href="#">
+              <a class="text-white text-xl font-montserrat" href="/news-detail">
                 KUNJUNGAN DIREKTUR POLITEKNIK ELEKTRONIKA NEGERI SURABAYA DAN
                 ROMBONGAN KE TIM ZONA INTEGRITAS WILAYAH BEBAS KORUPSI POLBAN
               </a>
@@ -53,7 +53,7 @@
         <div class="relative flex justify-center items-center">
           <div class="main-news absolute bg-black bg-opacity-60 bg-size">
             <div class="mx-2 my-2">
-              <a class="text-white text-xl font-montserrat" href="#">
+              <a class="text-white text-xl font-montserrat" href="/news-detail">
                 POLITEKNIK NEGERI BANDUNG MENJALIN HUBUNGAN KERJA SAMA DENGAN
                 ANTARA DIGITAL MEDIA JAKARTA
               </a>
