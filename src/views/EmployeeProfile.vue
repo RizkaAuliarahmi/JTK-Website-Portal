@@ -224,7 +224,7 @@
           >
             Daftar Publikasi Karya Ilmiah
           </h2>
-          <div class="ml-4">
+          <div class="ml-4" v-if="publication">
             <ul class="list-disc" id="publikasi"></ul>
           </div>
         </div>
@@ -281,6 +281,7 @@ export default Vue.extend({
   },
   async created() {
     await this.fetchData();
+    await this.fetchOtherData();
   },
 
   methods: {
@@ -293,6 +294,13 @@ export default Vue.extend({
           this.image = response.data.metadata[0].banner_image.url
           this.title = response.data.title
           this.nip = response.data.nip
+        });
+    },
+  },
+  async fetchOtherData() {
+      const employeeData = await axios
+        .get("https://cms-jtk-polban.herokuapp.com/tests/" + this.$route.params.id)
+        .then((response) => {
           this.mataKuliah = response.data.lecturers[0].subjects;
           var listmataKuliah = this.mataKuliah;
           var ul1 = document.getElementById("matakuliah");
@@ -405,6 +413,5 @@ export default Vue.extend({
           
         });
     },
-  },
 });
 </script>

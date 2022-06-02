@@ -66,7 +66,7 @@
             <div class="dropdown-content absolute hidden">
               <a href="#">Jurusan</a>
               <a href="/struktur-organisasi">Struktur Organisasi</a>
-              <a href="#">Sarana Prasarana</a>
+              <a href="/sarana-prasarana">Sarana Prasarana</a>
               <a href="/achievement">Daftar Prestasi</a>
             </div>
           </a>
@@ -145,6 +145,9 @@
           >
             Kontak
           </a>
+          <a data-v-41458b80="" href="/partnership" class="navlist mt-1 block px-6 py-1 text-white font-semibold font-montserrat rounded text-white hover:underline"> Partnership </a>
+          <a data-v-41458b80="" href="/#" class="navlist mt-1 block px-6 py-1 text-white font-semibold font-montserrat rounded text-white hover:underline"> Tracer Study </a>
+          <a data-v-41458b80="" href="/#" class="navlist mt-1 block px-6 py-1 text-white font-semibold font-montserrat rounded text-white hover:underline"> Kontak </a>
           <a
             v-for="(navbar, index) in navbarList.navbar_items"
             :href="navbar.navbar_link"

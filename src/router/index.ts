@@ -5,7 +5,7 @@ import Event from "../views/Event.vue"
 import NewsPortal from "../views/NewsPortal.vue";
 import NewsDetail from "../views/NewsDetail.vue";
 // import LandingPage from "../temp/LandingPage.vue";
-// import StrukturOrganisasi from "../views/StrukturOrganisasi.vue"
+import SaranaPrasarana from "../views/SaranaPrasarana.vue"
 import StrukturOrganisasi from "../views/StrukturOrganisasi.vue";
 import EmployeeProfile from "../views/EmployeeProfile.vue";
 import AchievementList from "../views/AchievementList.vue";
@@ -54,7 +54,12 @@ const routes: Array<RouteConfig> = [
     path: "/partnership",
     name: "Mitra Kami",
     component: Partnership,
-  }
+  },
+  {
+    path: "/sarana-prasarana",
+    name: "SaranaPrasarana",
+    component: SaranaPrasarana
+    }
 ];
 
 const router = new VueRouter({

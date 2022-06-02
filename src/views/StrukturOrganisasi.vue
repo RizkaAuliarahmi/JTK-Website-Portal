@@ -10,15 +10,15 @@
         <div class="grid grid-cols-4">
           <div class="col-span-4">
             <span class="font-semibold text-black items-center content-center self-center text-3xl justify-self-center font-montserrat text-center align-center">
-              Manajemen Jurusan Teknik Komputer dan Informatika  Politeknik Negeri Bandung Tahun 2019 - 2023
+              Manajemen Jurusan Teknik Komputer dan Informatika  Politeknik Negeri Bandung
             </span> 
           </div>
         </div>
-        <div class=" flex mt-6 place-self-center">
+        <!-- <div class=" flex mt-6 place-self-center">
           <img 
           class="w-full h-full" 
           src="img/webjtk/organigram-jtk-2015-v2.png"/>
-        </div>
+        </div> -->
       </div>
         <!-- gambar dan jabatann -->
         <div class="bg-sky mt-4 mx-0">
@@ -294,6 +294,71 @@
             </div>
           </div>
         </div>
+        <div v-if="employeeDataObject">
+        <v-tabs
+          v-model="tabs"
+          left
+          class="my-4"
+        >
+          <v-tab
+            v-for="item in items"
+            :key="item"
+            
+          >
+           {{item}}
+          </v-tab>
+        </v-tabs>
+        <v-tabs-items v-model="tabs" >
+      <v-tab-item>
+          <div class="grid grid-cols-10 grid-rows-flow gap-2" v-if="employeeDataObject">         
+              <div class="col-span-2 mt-4 back-color place-self-center" @click="goToDetail(employeeDataObject[2]._id)">
+                  <img class="w-full h-4/5" :src="src_gambar[2]"/>
+                  <div class="grid grid-cols-2">
+                      <div class="col-span-2 place-self-center">
+                          <h5 class="font-semibold font-montserrat text-base text-center">{{employeeDataObject[2].functional_occupation}}</h5>
+                          <h5 class="font-medium font-montserrat text-base text-center">{{employeeDataObject[2].name}}</h5>
+                          <h5 class="font-medium font-montserrat text-base text-center">{{employeeDataObject[2].nip}}</h5>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-span-2 mt-4 back-color place-self-center" @click="goToDetail(employeeDataObject[3]._id)">
+                  <img class="w-full h-4/5" :src="src_gambar[3]"/>
+                  <div class="grid grid-cols-2">
+                      <div class="col-span-2 place-self-center">
+                          <h5 class="font-semibold font-montserrat text-base text-center">{{employeeDataObject[3].functional_occupation}}</h5>
+                          <h5 class="font-medium font-montserrat text-base text-center">{{employeeDataObject[3].name}}</h5>
+                          <h5 class="font-medium font-montserrat text-base text-center">{{employeeDataObject[3].nip}}</h5>
+                      </div>
+                  </div>
+                  </div>
+            </div>
+      </v-tab-item>
+       <v-tab-item>
+          <div class="grid grid-cols-10 grid-rows-flow gap-2" v-if="employeeDataObject">         
+              <div class="col-span-2 mt-4 back-color place-self-center" @click="goToDetail(employeeDataObject[4]._id)">
+                  <img class="w-full h-4/5" :src="src_gambar[4]"/>
+                  <div class="grid grid-cols-4">
+                      <div class="col-span-4 place-self-center">
+                          <h5 class="font-semibold font-montserrat text-base text-center">{{employeeDataObject[4].functional_occupation}}</h5>
+                          <h5 class="font-medium font-montserrat text-base text-center">{{employeeDataObject[4].name}}</h5>
+                          <h5 class="font-medium font-montserrat text-base text-center">{{employeeDataObject[4].nip}}</h5>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-span-2 mt-4 back-color place-self-center" @click="goToDetail(employeeDataObject[5]._id)">
+                  <img class="w-full h-4/5" :src="src_gambar[5]"/>
+                  <div class="grid grid-cols-2">
+                      <div class="col-span-2 place-self-center">
+                          <h5 class="font-semibold font-montserrat text-base text-center">{{employeeDataObject[5].functional_occupation}}</h5>
+                          <h5 class="font-medium font-montserrat text-base text-center">{{employeeDataObject[5].name}}</h5>
+                          <h5 class="font-medium font-montserrat text-base text-center">{{employeeDataObject[5].nip}}</h5>
+                      </div>
+                  </div>
+                  </div>
+            </div>
+      </v-tab-item>
+    </v-tabs-items>
+        </div>
       <Footer/>
   </div>
 </template>
@@ -317,19 +382,19 @@
 import Vue from "vue";
 import axios from "axios";
 import BannerImage from "../components/webjtk/BannerImage.vue";
-// import ProfilCard from "../components/webjtk/ProfilCard.vue";
 import Navbar from "../components/webjtk/Navbar.vue";
 import Footer from "../components/webjtk/Footer.vue";
 
 export default Vue.extend({
   components: {
-    BannerImage,  Navbar, Footer, 
+    BannerImage,  Navbar, Footer
     // ProfilCard
   },
   name: "StrukturOrganisasi",
 
 data() {
     return {
+       items:["Dosen","Tenaga Kependidikan"],
         judul:["Manajemen Jurusan Periode 2019-2023","Program Studi","Kelompok Bidang Keahlian (KBK)","Laboratorium","Wali kelas Program Studi Teknik Informatika D-III","Wali kelas Program Studi Teknik Informatika D-IV"],
         mulai_dari:[
         "col-start-3 row-start-2",
