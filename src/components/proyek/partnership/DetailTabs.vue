@@ -22,9 +22,9 @@
 
 <style scoped>
 .detail-tab-active {
-  border-bottom: 2px solid #00b4a7;
+  border-bottom: 2px solid blue;
   box-sizing: border-box;
-  color: #00b4a7;
+  color: blue;
 }
 
 .detail-tab-inactive {
