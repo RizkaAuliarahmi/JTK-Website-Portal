@@ -1,7 +1,7 @@
 <template>
     <!-- Image, title, date, & category -->
     <div class="flex w-full">
-      <div class="grid grid-cols-5 gap-7 mx-20 mb-2">
+      <div v-if="isPartnership === true" class="grid grid-cols-5 gap-7 mx-20 mb-2">
         <div
           v-for="(item, index) in data"
           :key="index"
@@ -14,6 +14,24 @@
             />
             <div class="m4">
               <p class="text-sm color-gray mx-2 my-1">{{ data[index].partner_name }} </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div v-else class="grid grid-cols-2 gap-7 mx-20 mb-2">
+        <div
+          v-for="(item, index) in data"
+          :key="index"
+          class="carousel-card mx-3 h-full"
+        >
+          <div>
+            <img
+              :src="data[index].dept_image.url"
+              class="w-full h-max bg-no-repeat bg-cover rounded-t"
+            />
+            <div class="m4">
+              <p class="text-sm color-gray mx-2 my-1">{{ data[index].department_title}} </p>
             </div>
           </div>
         </div>
@@ -41,7 +59,7 @@
 
 <script>
 export default {
-  name: "NewsPortraitCard",
-  props: ["data", "isIndex"],
+  name: "Partnership Gallery",
+  props: ["data", "isPartnership"],
 }
 </script>

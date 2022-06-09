@@ -10,7 +10,7 @@
       <EventCard v-if="newsData" :data="newsData" :isIndex="true" />
     </div>
     <v-layout align-center justify-center>
-      <v-btn color="orange"> Lebih Banyak </v-btn>
+      <v-btn color="orange py-5 px-14 rounded"> Lebih Banyak </v-btn>
     </v-layout>
   </div>
 </template>
