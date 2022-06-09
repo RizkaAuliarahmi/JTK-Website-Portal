@@ -9,6 +9,7 @@ import NewsDetail from "../views/NewsDetail.vue";
 import StrukturOrganisasi from "../views/StrukturOrganisasi.vue";
 import EmployeeProfile from "../views/EmployeeProfile.vue";
 import AchievementList from "../views/AchievementList.vue";
+import TracerStudy from "../views/TracerStudy.vue";
 import Partnership from "../views/Partnership.vue";
 
 
@@ -52,8 +53,13 @@ const routes: Array<RouteConfig> = [
   },
   {
     path: "/partnership",
-    name: "Mitra Kami",
+    name: "Mitra Kami | Jurusan Teknik Komputer dan Informatika POLBAN",
     component: Partnership,
+  },
+  {
+    path: "/tracer-study",
+    name: "Tracer Study | Jurusan Teknik Komputer dan Informatika POLBAN",
+    component: TracerStudy,
   }
 ];
 

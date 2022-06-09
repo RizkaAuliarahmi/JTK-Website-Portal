@@ -111,7 +111,7 @@
           </a>
           <a
             data-v-41458b80=""
-            href="/#"
+            href="/tracer-study"
             class="
               navlist
               mt-1
